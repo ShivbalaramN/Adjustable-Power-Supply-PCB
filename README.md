@@ -1,47 +1,39 @@
-# Adjustable-Power-Supply-PCB
-Overview:
+Adjustable Power Supply PCB
 
-This project presents the design of an Adjustable Power Supply PCB created using KiCad. The circuit is based on the LM317 adjustable voltage regulator, which allows the output voltage to be varied by using a potentiometer.
-The goal of this project is to design a simple and efficient PCB that can convert a fixed DC input voltage into a stable and adjustable DC output, suitable for electronics experiments and small lab applications.
+Project Overview
 
-Features:
+This project is a simple Adjustable Power Supply PCB designed using KiCad.
+The circuit uses the LM317 voltage regulator to produce a variable DC output voltage.
 
-• Adjustable output voltage using a potentiometer
-• Stable voltage regulation with LM317
-• Protection diodes for regulator safety
-• Compact and beginner-friendly PCB layout
-• Designed using KiCad PCB design software
+By adjusting the potentiometer, the output voltage can be changed depending on the input voltage.
 
-Components Used:
+Components Used
 
- LM317 Voltage Regulator (TO-220 Package)
- Resistor R1 – 240 Ω
- Potentiometer – 10 kΩ
- Capacitor C1 – 0.1 µF
- Capacitor C2 – 10 µF
- Diodes – 1N4007 (2 units)
- Input Terminal Block
- Output Terminal Block
+- LM317 Voltage Regulator
+- Resistor (240Ω)
+- Potentiometer (10kΩ)
+- Capacitor 0.1µF
+- Capacitor 10µF
+- Diodes 1N4007
+- Input Terminal Block
+- Output Terminal Block
 
-Working Principle:
+Working
 
-The LM317 voltage regulator allows adjustable voltage regulation through a resistor divider network. The resistor (R1) and the potentiometer form a feedback network that sets the output voltage level.
-The output voltage is given by:
-Vout = 1.25 × (1 + R2 / R1)
-By adjusting the potentiometer, the output voltage can be varied smoothly depending on the input supply voltage.
+The LM317 regulator allows the output voltage to be adjusted using a resistor divider network.
+The potentiometer controls the output voltage level.
 
-Applications:
+Tools Used
 
-• Electronics laboratory power supply
-• Testing small circuits and sensors
-• Educational learning in power electronics and PCB design
+- KiCad (for schematic and PCB design)
 
-Files Included:
+Files Included
 
- KiCad Schematic Files
- PCB Layout Files
- Gerber Files for PCB Manufacturing
- Project Documentation
-Tools Used:
+- Schematic Design
+- PCB Layout
+- Gerber Files for PCB manufacturing
 
-KiCad (for schematic and PCB design)
+Author
+
+Shiv Balaram N
+ECE Student – University College of Engineering Kanchipuram
